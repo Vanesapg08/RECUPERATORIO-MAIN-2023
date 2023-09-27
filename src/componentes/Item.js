@@ -10,7 +10,7 @@
 export default function Item(props) {
     return (
       <>
-          // 🚩
+        <li onClick={()=>{props.handleFavorita(props.nombre)}}>{props.nombre}</li>
       </>
     );
   }
